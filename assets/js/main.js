@@ -377,27 +377,22 @@ var main = (function($) { var _ = {
 		var folderfull = "images/fulls/";
 	
 		$.ajax({
-			url: folder,
+			url: "images/imagelist.txt",
 			success: function(data) {
-				console.log("test");
-				$(data)
-					.find("a")
-					.attr("href", function(i, val) {
-						if (val.match(/\.(jpe?g|png|gif)$/)) {
-							$("#thumbnails").append(
-								"<article><a class='thumbnail' href='" +
-									folderfull +
-									val +
-									"' ><img src='" +
-									folder +
-									val +
-									"' alt='' /></a></article>"
-							);
-						}
-				});
-				// _.initProperties();
-				// _.initViewer();
-				// _.initEvents();
+				var lines = data.split("\n");
+				for (var i = 0; i < lines.length; i++) {
+					line = lines[i]
+					console.log(line);
+					$("#thumbnails").append(
+						"<article><a class='thumbnail' href='https://erikfriedman.github.io/" +
+							folderfull +
+							line +
+							"' ><img src='" +
+							folder +
+							line +
+							"' alt='' /></a></article>"
+					);
+				}
 				_.init();
 			}
 		});
