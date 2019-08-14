@@ -382,9 +382,8 @@ var main = (function($) { var _ = {
 				var lines = data.split("\n");
 				for (var i = 0; i < lines.length; i++) {
 					line = lines[i]
-					console.log(line);
 					$("#thumbnails").append(
-						"<article><a class='thumbnail' href='https://erikfriedman.github.io/" +
+						"<article><a class='thumbnail' href='" +
 							folderfull +
 							line +
 							"' ><img src='" +
@@ -450,9 +449,10 @@ var main = (function($) { var _ = {
 	 					// Image.
  							s.$slideImage = s.$slide.children('.image');
 
- 							// Set background stuff.
+							 // Set background stuff.
 	 							s.$slideImage
-		 							.css('background-image', '')
+									.css('background-image', `url('${s.url}')`)
+									.css('border', '1px solid red')
 		 							.css('background-position', ($thumbnail.data('position') || 'center'));
 
 						// Caption.
@@ -470,7 +470,7 @@ var main = (function($) { var _ = {
 
 							// Set slide's background image to it.
 								s.$slideImage
-									.css('background-image', 'url(' + s.url + ')');
+									.css('background-image', `url(' + ${s.url} + ')`);
 
 							// Mark slide as loaded.
 								s.$slide.addClass('loaded');
@@ -588,7 +588,6 @@ var main = (function($) { var _ = {
 								// Wait for it to load.
 									$('<img src="' + newSlide.url + '" />').on('load', function() {
 									//window.setTimeout(function() {
-
 										// Set background image.
 											newSlide.$slideImage
 												.css('background-image', 'url(' + newSlide.url + ')');
