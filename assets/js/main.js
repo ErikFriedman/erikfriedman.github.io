@@ -386,7 +386,7 @@ var main = (function($) { var _ = {
 						"<article><a class='thumbnail' href='" +
 							folderfull +
 							line +
-							"' data-position="top left"><img src='" +
+							"' data-position='"top left"'><img src='" +
 							folder +
 							line +
 							"' alt='' /></a></article>"
