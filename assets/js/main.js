@@ -453,7 +453,7 @@ var main = (function($) { var _ = {
 	 							s.$slideImage
 									.css('background-image', `url('${s.url}')`)
 									.css('border', '0px solid black')
-		 							.css('background-position', ($thumbnail.data('position') || 'top left'));
+		 							.css('background-position', ($thumbnail.data('position') || 'center'));
 
 						// Caption.
 							s.$slideCaption = s.$slide.find('.caption');
