@@ -386,7 +386,7 @@ var main = (function($) { var _ = {
 						"<article><a class='thumbnail' href='" +
 							folderfull +
 							line +
-							"' data-position='"top left"'><img src='" +
+							"'><img src='" +
 							folder +
 							line +
 							"' alt='' /></a></article>"
@@ -453,7 +453,7 @@ var main = (function($) { var _ = {
 	 							s.$slideImage
 									.css('background-image', `url('${s.url}')`)
 									.css('border', '1px solid black')
-		 							.css('background-position', ($thumbnail.data('position') || 'center'));
+		 							.css('background-position', ($thumbnail.data('position') || 'top left'));
 
 						// Caption.
 							s.$slideCaption = s.$slide.find('.caption');
