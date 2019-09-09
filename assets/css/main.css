@@ -1106,6 +1106,7 @@ input, select, textarea {
 		width: calc(100% - 22.5em);
 		height: 100%;
 		left: 0;
+        background: #fff;
 	}
 
 		#viewer .inner {
