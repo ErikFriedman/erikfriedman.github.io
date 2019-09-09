@@ -1122,7 +1122,7 @@ input, select, textarea {
 			#viewer .inner > * {
 				pointer-events: auto;
 			}
-
+/*
 			#viewer .inner:before {
 				background-image: -moz-linear-gradient(left, rgba(16,16,16,0.2), rgba(16,16,16,0) 10em, rgba(16,16,16,0)), -moz-linear-gradient(right, rgba(16,16,16,0.2), rgba(16,16,16,0) 10em, rgba(16,16,16,0));
 				background-image: -webkit-linear-gradient(left, rgba(16,16,16,0.2), rgba(16,16,16,0) 10em, rgba(16,16,16,0)), -webkit-linear-gradient(right, rgba(16,16,16,0.2), rgba(16,16,16,0) 10em, rgba(16,16,16,0));
@@ -1137,7 +1137,7 @@ input, select, textarea {
 				height: 100%;
                 background-color: #fff;
 			}
-
+*/
 			#viewer .inner .toggle {
 				-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 				position: absolute;
