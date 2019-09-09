@@ -454,7 +454,7 @@ var main = (function($) { var _ = {
 									.css('background-image', `url('${s.url}')`)
 									.css('border', '0px solid black')
 		 							.css('background-position', ($thumbnail.data('position') || 'center'));
-                                    .css('background-color', 'white')
+                                    
 
 						// Caption.
 							s.$slideCaption = s.$slide.find('.caption');
