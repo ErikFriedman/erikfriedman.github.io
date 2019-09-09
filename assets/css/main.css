@@ -1223,6 +1223,11 @@ input, select, textarea {
 				background-repeat: no-repeat;
 				background-size: cover;
 				opacity: 0;
+                img {
+                    max-width: 100%;
+                    height: auto;
+                }
+                
 			}
 
 			#viewer .slide:before {
