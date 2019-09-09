@@ -1106,7 +1106,7 @@ input, select, textarea {
 		width: calc(100% - 22.5em);
 		height: 100%;
 		left: 0;
-        background-color: #fff;
+        
 	}
 
 		#viewer .inner {
@@ -1151,7 +1151,7 @@ input, select, textarea {
 				z-index: 1;
 				right: 0;
 				background-position: calc(100% - 0.75em) 0.75em;
-                background-color: #fff;
+                
 			}
 
 			#viewer .inner .nav-next,
@@ -1167,7 +1167,7 @@ input, select, textarea {
 				background-repeat: no-repeat;
 				background-size: contain;
 				cursor: pointer;
-                background-color: #fff;
+                
 			}
 
 			#viewer .inner .nav-previous {
