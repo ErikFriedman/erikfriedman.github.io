@@ -1240,6 +1240,7 @@ input, select, textarea {
                 opacity: 0;
                 margin: 40px;
                 padding: 40px;
+                background-position: center;
             }
             #viewer .slide img {
                 max-width: 100%;
