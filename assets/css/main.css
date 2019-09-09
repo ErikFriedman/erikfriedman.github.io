@@ -1233,14 +1233,14 @@ input, select, textarea {
                 position: absolute;
                 top: 0;
                 left: 0;
-                width: 100%;
-                height: auto;
+                width: auto;
+                height: 100%;
                 background-repeat: no-repeat;
                 background-size: cover;
                 opacity: 0;
                 margin: 40px;
                 padding: 40px;
-                background-position: center;
+                
             }
             #viewer .slide img {
                 max-width: 100%;
