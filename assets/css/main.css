@@ -1168,7 +1168,7 @@ input, select, textarea {
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: contain;
-				cursor: url("images/arrow.svg");
+				cursor: url("images/arrow.svg"), pointer;
                 
 			}
 
