@@ -1160,10 +1160,10 @@ input, select, textarea {
 			#viewer .inner .nav-previous {
 				-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 				position: absolute;
-				top: 50%;
+				top: 100%;
 				width: 50%;
 				height: 100%;
-				margin-top: -3em;
+				margin-top: 0;
 				/*background-image: url("images/arrow.svg");*/
 				background-position: center;
 				background-repeat: no-repeat;
