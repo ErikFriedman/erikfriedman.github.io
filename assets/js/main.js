@@ -452,7 +452,7 @@ var main = (function($) { var _ = {
 							 // Set background stuff.
 	 							s.$slideImage
 									.css('background-image', `url('${s.url}')`)
-									.css('border', '0px solid black')
+									.css('border', '20px solid white')
 		 							.css('background-position', ($thumbnail.data('position') || 'center'));
                                     
 
