@@ -1164,11 +1164,11 @@ input, select, textarea {
 				width: 6em;
 				height: 6em;
 				margin-top: -3em;
-				background-image: url("images/arrow.svg");
+				/*background-image: url("images/arrow.svg");*/
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: contain;
-				cursor: url("images/arrow.svg"), pointer;
+			
                 
 			}
 
